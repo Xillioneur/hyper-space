@@ -526,7 +526,11 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: CROSS_PLATFORM_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    14: MOBILE_INPUT
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
@@ -620,7 +624,7 @@ PlayerSettings:
   cloudProjectId: 9c87e1a5-0a23-4f91-9935-be2685e41213
   framebufferDepthMemorylessMode: 0
   projectName: Hyper Space (1)
-  organizationId: willie-498804
+  organizationId: unii-games
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
